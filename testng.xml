@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="com.CapitolisAssignment.utilities.Reporting" />
+    </listeners>
+
     <parameter name="browser" value="chrome" />
     <test verbose="2" preserve-order="true" name="C:/Users/k/IdeaProjects/CapistolisAssignment">
         <classes>
-            <!-- <class name="com.CapitolisAssignment.testCases.TC_CheckboxesTest_001"/>-->
+            <class name="com.CapitolisAssignment.testCases.TC_CheckboxesTest_001"/>
             <class name="com.CapitolisAssignment.testCases.TC_LoginBasicTest_002"/>
+            <class name="com.CapitolisAssignment.testCases.TC_iFrameTest_003"/>
+            <class name="com.CapitolisAssignment.testCases.TC_DinamicLoadingTest_004"/>
+            <class name="com.CapitolisAssignment.testCases.TC_JQueryTest_005"/>
         </classes>
     </test>
 </suite>
