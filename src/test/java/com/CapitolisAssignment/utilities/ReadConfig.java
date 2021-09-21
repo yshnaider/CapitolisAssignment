@@ -10,7 +10,7 @@ public class ReadConfig {
 
     public ReadConfig()
     {
-        File src = new File("./Configuration/config.properties");
+        File src = new File("./configurations/config.properties");
 
         try {
             FileInputStream fis = new FileInputStream(src);

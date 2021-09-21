@@ -3,6 +3,8 @@
 <suite name="All Test Suite">
     <parameter name="browser" value="chrome" />
     <test verbose="2" preserve-order="true" name="C:/Users/k/IdeaProjects/CapistolisAssignment">
-        <classes/>
+        <classes>
+             <class name="com.CapitolisAssignment.testCases.TC_CheckboxesTest_001"/>
+        </classes>
     </test>
 </suite>
