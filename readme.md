@@ -11,6 +11,6 @@ This is an automation project done with selenium and testNG on Maven framework. 
 2. Open the project in java supported IDE and run the testng.xml.
 3. You can run the tests on different browsers by changing **value** field in ___parameter name="browser" value="chrome"___ in testNG.xml file. The options are: "chrome", "ie", "firefox".
 
-[1]:(http://the-internet.herokuapp.com/)
-[2]:(https://maven.apache.org/download.cgi)
+[1]: (http://the-internet.herokuapp.com/)
+[2]: (https://maven.apache.org/download.cgi)
 
