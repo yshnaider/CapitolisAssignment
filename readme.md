@@ -1,4 +1,4 @@
-##Selenim project with testNG on Maven
+## Selenim project with testNG on Maven
 
 This is an automation project done with selenium and testNG on Maven framework. The test are writen for different use cases on [this website][1].</br>
 
