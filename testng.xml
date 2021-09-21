@@ -4,7 +4,8 @@
     <parameter name="browser" value="chrome" />
     <test verbose="2" preserve-order="true" name="C:/Users/k/IdeaProjects/CapistolisAssignment">
         <classes>
-             <class name="com.CapitolisAssignment.testCases.TC_CheckboxesTest_001"/>
+            <!-- <class name="com.CapitolisAssignment.testCases.TC_CheckboxesTest_001"/>-->
+            <class name="com.CapitolisAssignment.testCases.TC_LoginBasicTest_002"/>
         </classes>
     </test>
 </suite>

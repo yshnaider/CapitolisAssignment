@@ -13,7 +13,7 @@ public class TC_CheckboxesTest_001 extends BaseClass{
 
         CheckboxesPage cbPage = new CheckboxesPage(driver);
         cbPage.goToCheckboxesPage();
-        Thread.sleep(2000);
+
         logger.info("Checkboxes page is open");
 
         if (cbPage.getCheckbox1().isSelected()) {
